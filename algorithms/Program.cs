@@ -12,7 +12,7 @@ namespace algorithms
             string arrayStr = string.Join("  ", array);
             Console.WriteLine(arrayStr);
 
-            SelectionSort.Sort(array);
+            InsertionSort.Sort(array);
 
             arrayStr = string.Join("  ", array);
             Console.WriteLine(arrayStr);
